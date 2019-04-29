@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/highscore1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"/>
+        <Button
+            android:id="@+id/profilebutton1"
+            android:visibility="invisible"
+            android:layout_height="40sp"
+            android:layout_width="100sp"
+            android:text="Go"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/highscore2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"/>
+        <Button
+            android:id="@+id/profilebutton2"
+            android:visibility="invisible"
+            android:layout_height="40sp"
+            android:layout_width="100sp"
+            android:text="Go"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/highscore3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"/>
+        <Button
+            android:id="@+id/profilebutton3"
+            android:visibility="invisible"
+            android:layout_height="40sp"
+            android:layout_width="100sp"
+            android:text="Go"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/highscore4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"/>
+        <Button
+            android:id="@+id/profilebutton4"
+            android:visibility="invisible"
+            android:layout_height="40sp"
+            android:layout_width="100sp"
+            android:text="Go"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/highscore5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"/>
+        <Button
+            android:id="@+id/profilebutton5"
+            android:visibility="invisible"
+            android:layout_height="40sp"
+            android:layout_width="100sp"
+            android:text="Go"/>
+    </LinearLayout>
+    
+    
+    
+    
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:layout_marginRight="300.0dp" />
+    
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+    
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/poster"/>
+    
+    <EditText
+        android:id="@+id/player"
+        android:hint="Enter Player's Name"
+        android:textColor="@android:color/background_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Play"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_NewGame" />
+    <Button
+        android:text="Profile and Scores"
+        android:layout_width="147.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_HighScores" />
+    <Button
+        android:text="Quit"
+        android:layout_width="149.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_Exit" />
+</LinearLayout>
